@@ -8,10 +8,14 @@
       src="https://kit.fontawesome.com/7e9f186741.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" href="data:," />
     <link rel="stylesheet" href="./dist/bootstrap.min.css" />
     <style>
       a {
         color: #17a2b8;
+      }
+      a:hover {
+        color: #0dd8d8; /* Változtasd meg ezt az értéket a kívánt színre */
       }
     </style>
     <title>Szilágyi Viktor CV</title>
@@ -56,9 +60,9 @@
     <main class="container my-5">
       <div class="aboutMe mt-5 py-2" style="background-color: #555">
         <h2 class="px-4">About Me</h2>
-        <a href="./profilePic/minImage.jpg">
+        <a href="./profilePic/Image.jpg" target="_blank">
           <img
-            src="./profilePic/minImage.jpg"
+            src="./profilePic/Image.jpg"
             alt="Viktor Szilagyi"
             style="width: 250px; height: auto; border: 1px solid #fff"
             class="m-4"
@@ -107,8 +111,8 @@
         <p class="px-4">
           A simple TicTacToe game.
           <a href="https://szilavi.github.io/tictactoe/" target="_blank"
-            >Click here to try the TicTacToe game</a
-          >!
+            >Click here to try the TicTacToe game!</a
+          >
         </p>
         <hr class="col-10 border-2 opacity-50" />
         <p class="px-4">
@@ -119,8 +123,8 @@
         <p class="px-4">
           A calculator.
           <a href="https://szilavi.github.io/calculator/" target="_blank"
-            >Click here to try the calculator</a
-          >!
+            >Click here to try the calculator!</a
+          >
         </p>
         <hr class="col-10 border-2 opacity-50" />
         <p class="px-4">
@@ -131,8 +135,8 @@
         <p class="px-4">
           A matching game with Magic: The Gathering cards.
           <a href="https://szilavi.github.io/matching-game/" target="_blank"
-            >Click here to try the matching game</a
-          >!
+            >Click here to try the matching game!</a
+          >
         </p>
       </div>
     </main>
@@ -143,17 +147,28 @@
           <div class="p-2 text-center">
             <i class="fa-solid fa-3x fa-phone-volume"></i>
             <h4>Phone</h4>
-            <p>+36/20-451-4282</p>
+            <p><a href="tel:+36204514282">+36/20-451-4282</a></p>
           </div>
           <div class="p-2 mx-5 text-center">
             <i class="fa-solid fa-3x fa-map-location"></i>
             <h4>Address</h4>
-            <p>Békéscsaba, Hungary</p>
+            <p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Békéscsaba,+Hungary"
+                target="_blank"
+              >
+                Békéscsaba, Hungary
+              </a>
+            </p>
           </div>
           <div class="p-2 text-center">
             <i class="fa-solid fa-3x fa-at"></i>
             <h4>E-mail</h4>
-            <p>szilagyi.viktor89@gmail.com</p>
+            <p>
+              <a href="mailto:szilagyi.viktor89@gmail.com"
+                >szilagyi.viktor89@gmail.com</a
+              >
+            </p>
           </div>
         </div>
       </div>
