@@ -25,320 +25,69 @@
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="./dist/bootstrap.min.css" />
     <style>
+      body {
+        background-color: #555;
+      }
+      nav,
+      #aboutMe,
+      #contact {
+        background-color: #222;
+      }
+      #profilePic {
+        width: 250px;
+        height: auto;
+        border: 1px solid #fff;
+      }
       a {
         color: #17a2b8;
       }
       a:hover {
-        color: #0dd8d8; /* Változtasd meg ezt az értéket a kívánt színre */
+        color: #0dd8d8;
       }
     </style>
     <title>Viktor Szilágyi Fullstack developer</title>
   </head>
-  <body class="link-light" style="background-color: #222">
+  <body class="link-light">
     <!-- NAVBAR -->
-    <nav
-      class="navbar sticky-top navbar-expand-lg bg-body-tertiary"
-      style="background-color: #555"
-    >
+    <nav class="navbar navbar-expand-lg container py-4 mt-5">
       <div class="container-md">
         <a class="navbar-brand link-light" href="#">Viktor Szilágyi</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active link-light"
-                aria-current="page"
-                href="#aboutMe"
-                >About Me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="#myProjects">My Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
     <!-- MAIN -->
-    <main class="container my-5">
-      <div class="mt-5 py-2" id="aboutMe" style="background-color: #555">
-        <h2 class="px-4">About Me</h2>
+    <main class="container my-5 p-0">
+      <div class="mt-5 py-5" id="aboutMe">
+        <h2 class="px-4">About me</h2>
         <a href="./profilePic/Image.jpg" target="_blank">
           <img
+            id="profilePic"
             src="./profilePic/Image.jpg"
             alt="Viktor Szilagyi"
-            style="width: 250px; height: auto; border: 1px solid #fff"
             class="m-4"
           />
         </a>
         <p class="px-4">
-          Two years ago, I started learning to program in JavaScript. I enrolled
-          in two schools to deepen my knowledge of native JavaScript, HTML, CSS,
-          SCSS, Angular, Node.js, Express, and MongoDB.
+          I started programming in 2023. At first, I worked as a frontend
+          developer with HTML, CSS, and JavaScript. Later, I expanded my
+          knowledge and became familiar with the Angular and React frameworks.
+          In 2024, I expanded my knowledge. As a backend developer, I gained
+          experience with SQL and NoSQL databases, and built websites using
+          Node.js and Express.
         </p>
         <p class="px-4">
-          I consider myself a team player who is also capable of finishing any
-          task alone as well. I don't like to leave work for the next day and
-          the quality of tasks I finish should be unquestionable. I don't like
-          to be sidelined; I want to be involved in every aspect of a job. Most
-          importantly, I am always looking to learn new skills.
+          That same year, I learned PHP. I have already completed a project
+          using Laravel, and whenever possible, I work with the LeafPHP
+          framework.
         </p>
         <p class="px-4">
-          My plans include learning multiple JavaScript frameworks shortly, as
-          well as mastering other programming languages. Additionally, I need to
-          catch up on my English skills, which I started learning a year ago.
-        </p>
-
-        <p class="px-4 pb-4">
-          Currently, I am enhancing my skills in PHP, Leaf PHP, Java, and SQL.
-        </p>
-      </div>
-
-      <div class="my-5 py-2" id="myProjects" style="background-color: #555">
-        <h2 class="px-4">My Projects</h2>
-        <h3 class="p-4">Angular projects</h3>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/fsapi-remek-assignment-szilavi"
-            target="_blank"
-            >DOS Games Webstore</a
-          >
-        </p>
-        <p class="px-4">
-          This project was made with Angular. The API was built with Node.js and
-          connects to a MongoDB database.
-        </p>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/fsapi-remek-assignment-szilavi/blob/master/README.md"
-            target="_blank"
-            >If you want to try out the site, please follow the documentation.
-          </a>
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/webshop-code-bro" target="_blank"
-            >Fictional webshop</a
-          >
-        </p>
-        <p class="px-4">This fictional movie webshop was a team effort.</p>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/webshop-code-bro/blob/main/README.md"
-            target="_blank"
-            >If you want to try out the site, please follow the documentation.
-          </a>
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/hots-projekt" target="_blank"
-            >Heroes of the Storm character editor</a
-          >
-        </p>
-        <p class="px-4">
-          This is a small practice project inspired by one of my favorite game,
-          Heroes of the Storm.
-        </p>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/hots-projekt/blob/main/README.md"
-            target="_blank"
-            >If you want to try out the site, please follow the documentation.
-          </a>
-        </p>
-
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/car-webshop" target="_blank"
-            >Fictive car-selling webshop</a
-          >
-        </p>
-        <p class="px-4">
-          This fictional car-selling webshop was created as part of a school
-          project.
-        </p>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/car-webshop/blob/main/README.md"
-            target="_blank"
-            >If you want to try out the site, please follow the documentation.
-          </a>
-        </p>
-        <hr class="col-12 border border-2 opacity-75" />
-        <h3 class="p-4">Native JS projects</h3>
-        <p class="px-4">
-          <a href="https://github.com/szilavi/CRUD-app" target="_blank"
-            >User editor website</a
-          >
-        </p>
-        <p class="px-4">
-          This application is a simple JavaScript and HTML/CSS-based user data
-          display and management system.
-        </p>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/CRUD-app/blob/main/README.md"
-            target="_blank"
-            >If you want to try out the site, please follow the documentation.
-          </a>
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/tictactoe" target="_blank"
-            >TicTacToe</a
-          >
-        </p>
-        <p class="px-4">
-          A simple TicTacToe game.
-          <a href="https://szilavi.github.io/tictactoe/" target="_blank"
-            >Click here to try the TicTacToe game!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/calculator" target="_blank"
-            >Calculator</a
-          >
-        </p>
-        <p class="px-4">
-          A calculator.
-          <a href="https://szilavi.github.io/calculator/" target="_blank"
-            >Click here to try the calculator!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/matching-game" target="_blank"
-            >Matching game</a
-          >
-        </p>
-        <p class="px-4">
-          A matching game with Magic: The Gathering cards.
-          <a href="https://szilavi.github.io/matching-game/" target="_blank"
-            >Click here to try the matching game!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/slider" target="_blank">Slider</a>
-        </p>
-        <p class="px-4">
-          An image slider with Middle-earth locations.
-          <a href="https://szilavi.github.io/slider/" target="_blank"
-            >Click here to try the slider!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/todo" target="_blank"
-            >To Do page</a
-          >
-        </p>
-        <p class="px-4">
-          A To Do webpage.
-          <a href="https://szilavi.github.io/todo/" target="_blank"
-            >Click here to try the ToDo app!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/got-character-encyclopedia"
-            target="_blank"
-            >A Game of Thrones Character Encyclopedia</a
-          >
-        </p>
-        <p class="px-4">
-          A GOT charcter encyclopedia.
-          <a
-            href="https://szilavi.github.io/got-character-encyclopedia/"
-            target="_blank"
-            >Click here to try the GOT Encyclopedia!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/clock" target="_blank"
-            >A simple clock</a
-          >
-        </p>
-        <p class="px-4">
-          A simple digital clock.
-          <a href="https://szilavi.github.io/clock/" target="_blank"
-            >Click here to watch the clock!</a
-          >
-        </p>
-        <hr class="col-12 border border-2 opacity-75" />
-        <h3 class="p-4">SCSS project</h3>
-        <p class="px-4">
-          <a href="https://github.com/szilavi/scss-sitebuilding" target="_blank"
-            >Sitebuilding project</a
-          >
-        </p>
-        <p class="px-4">
-          The website I created serves as a showcase for a fictitious
-          application. During the design process, I used SCSS preprocessor.
-          <a href="https://szilavi.github.io/scss-sitebuilding/" target="_blank"
-            >Click here to visit my webpage!</a
-          >
-        </p>
-        <hr class="col-12 border border-2 opacity-75" />
-        <h3 class="p-4">Bootstrap projects</h3>
-        <p class="px-4">
-          <a
-            href="https://github.com/szilavi/bootstrap-sitebuilding"
-            target="_blank"
-            >Sitebuilding project</a
-          >
-        </p>
-        <p class="px-4">
-          The website I created serves as a showcase for a fictitious
-          application. During the design process, I used Bootstrap.
-          <a
-            href="https://szilavi.github.io/bootstrap-sitebuilding/"
-            target="_blank"
-            >Click here to visit my webpage!</a
-          >
-        </p>
-        <hr class="col-12 opacity-50" />
-        <p class="px-4">
-          <a href="https://github.com/szilavi/bs-checkout-form" target="_blank"
-            >A checkout-form</a
-          >
-        </p>
-        <p class="px-4">
-          A simple, responsive checkout-form.
-          <a href="https://szilavi.github.io/bs-checkout-form/" target="_blank"
-            >Click here to visit check the form!</a
-          >
-        </p>
-        <hr class="col-12 border border-2 opacity-75" />
-        <h3 class="p-4">WordPress project</h3>
-        <p class="px-4">
-          <a href="https://erack.nl/" target="_blank">Era CK</a>
-        </p>
-        <p class="px-4">
-          This is one of my websites created with WordPress. I used Oxygen Page
-          Builder for its development.
+          Nowadays, I focus on creating WordPress websites and exploring mobile
+          application development while also expanding my system administration
+          knowledge.
         </p>
       </div>
     </main>
     <!-- FOOTER -->
-    <footer style="background-color: #555" id="contact">
+    <footer id="contact" class="container py-4 mb-5">
       <div class="container">
         <div class="d-flex flex-column flex-md-row justify-content-center">
           <div class="p-2 text-center">
