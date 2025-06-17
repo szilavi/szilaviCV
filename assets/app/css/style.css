@@ -22,16 +22,6 @@ p {
   color: #ff0000;
 }
 
-.social-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-.social-icon-email {
-  margin-right: 25px;
-}
-
 .profile-image {
   width: 250px;
   border: 2px solid #fff;
