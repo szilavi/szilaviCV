@@ -2,122 +2,148 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Viktor Szilágyi Fullstack developer CV page."
-    />
-    <meta
-      name="keywords"
-      content="Viktor, Szilágyi, Önéletrajz, Programozás, Javascript, Frontend, Fullstack"
-    />
-    <script
-      src="https://kit.fontawesome.com/7e9f186741.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Open Graph metaadatok -->
-    <meta property="og:title" content="Viktor Szilágyi Fullstack developer" />
-    <meta property="og:description" content="Check out my projects!" />
-    <meta property="og:image" content="./profilePic/Image.jpg" />
-    <meta property="og:url" content="https://szilagyi.dev" />
-    <meta property="og:type" content="website" />
-    <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./dist/bootstrap.min.css" />
-    <style>
-      body {
-        background-color: #555;
-      }
-      nav,
-      #aboutMe,
-      #contact {
-        background-color: #222;
-      }
-      #profilePic {
-        width: 250px;
-        height: auto;
-        border: 1px solid #fff;
-      }
-      a {
-        color: #17a2b8;
-      }
-      a:hover {
-        color: #0dd8d8;
-      }
-    </style>
-    <title>Viktor Szilágyi Fullstack developer</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/app/css/style.css" />
+    <title>Szilágyi Viktor</title>
   </head>
-  <body class="link-light">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg container py-4 mt-5">
-      <div class="container-md">
-        <a class="navbar-brand link-light" href="#">Viktor Szilágyi</a>
-      </div>
-    </nav>
-    <!-- MAIN -->
-    <main class="container my-5 p-0">
-      <div class="mt-5 py-5" id="aboutMe">
-        <h2 class="px-4">About me</h2>
-        <a href="./profilePic/Image.jpg" target="_blank">
-          <img
-            id="profilePic"
-            src="./profilePic/Image.jpg"
-            alt="Viktor Szilagyi"
-            class="m-4"
-          />
-        </a>
-        <p class="px-4">
-          I started programming in 2023. At first, I worked as a frontend
-          developer with HTML, CSS, and JavaScript. Later, I expanded my
-          knowledge and became familiar with the Angular and React frameworks.
-          In 2024, I expanded my knowledge. As a backend developer, I gained
-          experience with SQL and NoSQL databases, and built websites using
-          Node.js and Express.
-        </p>
-        <p class="px-4">
-          That same year, I learned PHP. I have already completed a project
-          using Laravel, and whenever possible, I work with the LeafPHP
-          framework.
-        </p>
-        <p class="px-4">
-          Nowadays, I focus on creating WordPress websites and exploring mobile
-          application development while also expanding my system administration
-          knowledge.
-        </p>
-      </div>
-    </main>
-    <!-- FOOTER -->
-    <footer id="contact" class="container py-4 mb-5">
-      <div class="container">
-        <div class="d-flex flex-column flex-md-row justify-content-center">
-          <div class="p-2 text-center">
-            <i class="fa-solid fa-3x fa-phone-volume"></i>
-            <h4>Phone</h4>
-            <p><a href="tel:+36204514282">+36/20-451-4282</a></p>
-          </div>
-          <div class="p-2 mx-5 text-center">
-            <i class="fa-solid fa-3x fa-map-location"></i>
-            <h4>Address</h4>
-            <p>
-              <a href="https://goo.gl/maps/6KGvDnhw9ppSbfjA6" target="_blank">
-                Békéscsaba, Hungary
+  <body class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h1>Szilágyi Viktor</h1>
+          <h2 class="my-3">Webfejlesztő</h2>
+          <p>Modern weboldalak, összetett online rendszerek fejlesztése.</p>
+          <div class="social-media-links d-flex flex-column gap-3 mt-4">
+            <div class="d-flex align-items-center">
+              <img
+                class="me-3"
+                src="./assets/icon/email.png"
+                alt="email-icon"
+                width="24"
+                height="24"
+              />
+              <a
+                href="mailto:viktor@szilagyi.dev"
+                class="text-white text-decoration-none"
+              >
+                viktor@szilagyi.dev
               </a>
-            </p>
-          </div>
-          <div class="p-2 text-center">
-            <i class="fa-solid fa-3x fa-at"></i>
-            <h4>E-mail</h4>
-            <p>
-              <a href="mailto:viktor@szilagyi.dev">viktor@szilagyi.dev</a>
-            </p>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <img
+                class="me-3"
+                src="./assets/icon/facebook.png"
+                alt="facebook-icon"
+                width="24"
+                height="24"
+              />
+              <a
+                href="https://www.facebook.com/viktor.szilagyi.58/"
+                target="_blank"
+                class="text-white text-decoration-none"
+              >
+                viktor.szilagyi.58
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-column gap-3">
+          <h3>RÓLAM</h3>
+          <img
+            class="profile-image"
+            src="./assets/img/Image.jpg"
+            alt="Szilágyi Viktor"
+          />
+          <p>
+            2023-ban kezdtem el programozni, weboldalakat készíteni. Először
+            frontend fejlesztőként a honlapok megjelenésével és felhasználói
+            élményével foglalkoztam. Ehhez
+            <span class="fw-bold highlight">HTML</span>-t,
+            <span class="fw-bold highlight">CSS</span>-t és
+            <span class="fw-bold highlight">JavaScript</span>-et használok a mai
+            napig. Még ugyanebben az évben megismerkedtem a modern
+            keretrendszerekkel, például a
+            <span class="fw-bold highlight">React</span>-tel és az
+            <span class="fw-bold highlight">Angular</span>-ral.
+          </p>
+          <p>
+            Egy évvel később, 2024-ben backend fejlesztőként is dolgozni
+            kezdtem. Ekkor már a
+            <span class="fw-bold highlight">Node.js</span>-t,
+            <span class="fw-bold highlight">Express</span>-t és a
+            <span class="fw-bold highlight">MongoDB</span>-t használtam,
+            kicsivel később pedig a <span class="fw-bold highlight">PHP</span>-t
+            és a <span class="fw-bold highlight">MySQL</span>-t is
+            elsajátítottam és használom előszeretettel most is.
+          </p>
+          <p>
+            Ugyancsak 2024-ben elkdeztem
+            <span class="fw-bold highlight">WordPress</span> weboldalakat is
+            készíteni, amik az ügyfeleim számára olcsóbb, könyebben használható
+            alternatívát jelentenek.
+          </p>
+          <p>
+            Manapság telefonos alkalmazások fejlesztésével is foglalkozom, első
+            sorban <span class="fw-bold highlight">Cordova</span> és
+            <span class="fw-bold highlight">React Native</span> használatával.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-column gap-3 my-5">
+          <h3>MUNKATAPASZTALATOM</h3>
+          <div class="mb-4">
+            <p class="h5 mb-3">Szabadúszóként</p>
+            <p>
+              Az elmúlt években több cégnek készítettem belső használatra
+              komplex, webes alkalmazásokat, valamint ügyfelek számára egyedi
+              weboldalakat akár WordPress, akár egyedi fejlesztés keretein
+              belül.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill text-bg-light">WordPress</span>
+              <span class="badge rounded-pill text-bg-light">HTML</span>
+              <span class="badge rounded-pill text-bg-light">CSS</span>
+              <span class="badge rounded-pill text-bg-light">JavaScript</span>
+              <span class="badge rounded-pill text-bg-light">PHP</span>
+              <span class="badge rounded-pill text-bg-light">MySQL</span>
+              <span class="badge rounded-pill text-bg-light">Shoprenter</span>
+              <span class="badge rounded-pill text-bg-light">WooComerce</span>
+            </div>
+          </div>
+          <div>
+            <p class="h5 mb-3">Békéscsaba Energia ESCO</p>
+            <p>
+              2025-ben kezdtem el dolgozni a Békéscsaba Energia ESCO-nál, ahol a
+              cég belső használatra készült webes alkalmazásait fejlesztem,
+              illetve tartom karban.<br />
+              Ezen kívül több nemzetközi projektben is részt veszek, ahol többek
+              között weboldalakat, telefonos alkalmazásokat és webes
+              alkalmazásokat készítek.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill text-bg-light">PHP</span>
+              <span class="badge rounded-pill text-bg-light">MySQL</span>
+              <span class="badge rounded-pill text-bg-light">WordPress</span>
+              <span class="badge rounded-pill text-bg-light">HTML</span>
+              <span class="badge rounded-pill text-bg-light">CSS</span>
+              <span class="badge rounded-pill text-bg-light">JavaScript</span>
+              <span class="badge rounded-pill text-bg-light">Leaflet</span>
+              <span class="badge rounded-pill text-bg-light">Bootstrap</span>
+              <span class="badge rounded-pill text-bg-light">Cordova</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

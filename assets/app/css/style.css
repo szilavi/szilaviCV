@@ -1,0 +1,39 @@
+body {
+  font-family: 'RALEWAY', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.50rem;
+}
+
+h3 {
+  font-family: 'LATO', sans-serif;
+}
+
+p {
+  font-family: 'LATO', sans-serif;
+}
+
+.highlight {
+  color: #ff0000;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-icon-email {
+  margin-right: 25px;
+}
+
+.profile-image {
+  width: 250px;
+  border: 2px solid #fff;
+  border-radius: 5%;
+}
