@@ -475,11 +475,11 @@ h3 {
   }
 
   .nav-list {
-    gap: 14px;
+    gap: 10px;
   }
 
   .nav-list a {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
 
   .hero {
@@ -490,8 +490,13 @@ h3 {
   }
 
   .hero-portrait {
-    width: min(70%, 290px);
+    width: 100%;
+    max-width: none;
     justify-self: start;
+  }
+
+  .section {
+    padding-block: 64px;
   }
 
   .timeline-item {
@@ -524,12 +529,26 @@ h3 {
 
 @media (hover: none) {
   .project-open {
+    top: 16px;
+    right: 16px;
+    left: auto;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    gap: 0;
+    padding: 0;
+    font-size: 0;
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: none;
   }
 
   .project-card-content {
-    opacity: 0.52;
+    opacity: 1;
+  }
+
+  .project-open span[aria-hidden="true"] {
+    font-size: 1.05rem;
+    line-height: 1;
   }
 }
 
